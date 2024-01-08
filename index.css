@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 /* banner section  */
@@ -11,6 +11,7 @@
     margin: 0 auto;
     height: 500px;
     background-image: url("resources/Banner\ Image.png");
+    background-repeat: no-repeat;
     color: #fff;
     text-align: center;
     padding: 50px 20px
@@ -30,7 +31,7 @@
     /* width: 60%; */
     margin-top: 100px;
     margin: 0 auto;
-    height: 250px;
+    height: 700px;
     /* background-image: url("resources/Banner\ Image.png"); */
     color: #444040;
     text-align: center;
@@ -58,12 +59,27 @@
 } */
 
 .offer-image {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     height: 500px;
     background-image: url("resources/New\ Year\ Photo.png");
     /* background-image: url("resources/Banner\ Image.png"); */
     background-color: rgb(243, 247, 243);
     text-align: center;
+    background-repeat: no-repeat;
     /* padding: 50px 20px */
+}
+
+/* paty-img */
+.paty-img{
+    width: 80%;
+    margin-top: 200px;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url("resources/Banner\ Image.png");
+    background-image: url("resources/Banner\ Image.png"); 
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px
 }
