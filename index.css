@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +6,7 @@
 
 /* banner section  */
 
-.banner-container{
+.banner-container {
     width: 80%;
     margin: 0 auto;
     height: 500px;
@@ -18,12 +17,53 @@
 }
 
 .banner-container h3 {
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 .banner-container h1 {
-    font-size: 80px; 
+    font-size: 80px;
 }
 
 
+/* offer-section */
+.offer-section {
+    /* width: 60%; */
+    margin-top: 100px;
+    margin: 0 auto;
+    height: 250px;
+    /* background-image: url("resources/Banner\ Image.png"); */
+    color: #444040;
+    text-align: center;
+    padding: 50px 20px
+}
 
+.offer-section>h1 {
+    color: #e61919;
+    font-size: 70px;
+
+}
+
+.offer-section>p {
+    padding-top: 20px;
+    color: #6d6b6b;
+    font-size: 20px;
+
+}
+
+/* .offer-section > div{
+    color: #6d6b6b;
+    background-image: url("resources/Banner\ Image.png");
+    font-size: 20px;
+
+} */
+
+.offer-image {
+    width: 60%;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url("resources/New\ Year\ Photo.png");
+    /* background-image: url("resources/Banner\ Image.png"); */
+    background-color: rgb(243, 247, 243);
+    text-align: center;
+    padding: 50px 20px
+}
