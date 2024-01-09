@@ -9,6 +9,8 @@ body{
     max-width: 1250px;
     margin: 0 auto;
 } */
+
+
 /* banner section  */
 
 .banner-container {
@@ -56,19 +58,12 @@ body{
 
 }
 
-/* .offer-section > div{
-    color: #6d6b6b;
-    background-image: url("resources/Banner\ Image.png");
-    font-size: 20px;
-
-} */
 
 .offer-image {
     width: 80%;
     margin: 0 auto;
     height: 500px;
     background-image: url("resources/New\ Year\ Photo.png");
-    /* background-image: url("resources/Banner\ Image.png"); */
     background-color: rgb(243, 247, 243);
     text-align: center;
     background-repeat: no-repeat;
@@ -131,12 +126,12 @@ body{
 .red-button {
     padding: 10px 20px;
     background-color: #ff0000;
-    /* Red color */
+    
     color: #fff;
-    /* White text */
+   
     border: none;
     border-radius: 5px;
-    /* Rounded corners */
+   
     font-size: 16px;
     cursor: pointer;
 }
@@ -145,20 +140,21 @@ body{
 .circle-section {
     width: 80%;
     margin: 0 auto;
-    height: 600px;
+    height: 400px;
     margin-top: 100px;
-    /* margin-left: 200px; */
+  
 
 }
 .circle-div {
-    /* width:  28%; */
+    
     display: flex;
+    justify-content: space-between;
 }
 
 .circle-div >div {
     width:  28%;
     height: 300px;
-    /* display: flex; */
+  
 }
 .circle-image {
     width: 150px;
@@ -166,7 +162,6 @@ body{
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid #007bff;
-    /* Border color and width */
 
 }
 
@@ -198,12 +193,9 @@ body{
     height: 600px;
     margin: 0 auto;
     margin-top: 200px;
-    /* background-color: aqua; */
 }
 
-/* .gift-items-images{
-    display: flex;
-} */
+
 .gift-items img {
     width: 26%;
     margin-top: 20px;
@@ -226,18 +218,14 @@ body{
     margin-bottom: 100px;
     padding: 70px;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
+    
 
 }
 
 
 /* user-form */
 .user-form {
-    /* width: 200px;
-   height: 25px; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,21 +237,12 @@ body{
 
 .user-form button {
     background-color: #aa043b;
-    /* Green */
-    /* border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px; */
-
+   
     padding: 10px;
     background-color: #e0383b;
     color: #fff;
     border: none;
     border-radius: 0 25px 25px 0;
-    /* Adjust the values as needed for the desired roundness */
     cursor: pointer;
 }
 
@@ -277,23 +256,20 @@ body{
     color: #ffffff;
     margin-bottom: 100px;
     padding: 20px;
-    /* padding: 70px; */
-    /* text-align: center; */
+    
 }
 
 .footer-container div {
     display: flex;
-    /* justify-content: space-between; */
+  
     padding: 10px;
 }
 
 .contact-section {
-    margin-left: 3 50px;
+    margin-left: 350px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center;
-    padding-left: 50px; */
+   
 }
 
 /* icon-container */
